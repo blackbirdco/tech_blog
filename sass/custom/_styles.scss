@@ -1,0 +1,31 @@
+hr {
+  margin: 15px 0;
+  border-bottom: none;
+  border-top: 1px solid black;
+}
+
+.profilepic {
+  text-align: center;
+}
+
+#main-nav, #sub-nav, #main-nav ul, #main-nav ul li {
+  text-align: center;
+}
+
+#main-nav ul li {
+  width: 100%;
+}
+
+#sub-nav .social {
+  margin-right: 0;
+}
+
+.container .mid-col .mid-col-container #content article .title {
+  text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+  .container .left-col #header #main-nav ul li {
+    margin-right: 0!important;
+  }
+}

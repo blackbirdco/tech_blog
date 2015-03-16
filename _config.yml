@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://tech.meetj.am
+title: Jam nerdz
+subtitle: Work hard, troll harder
+author: Blackbird SAS
 simple_search: https://www.google.com/search
-description:
+description: Work hard, troll harder
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,8 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: tech@meetj.am
+email_md5: 693d7463bda2ad0dbb456987b522faba
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -27,7 +28,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 source: source
 destination: public
 plugins: plugins
@@ -91,7 +92,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: justjamtech
 disqus_show_comment_count: false
 
 # Google Analytics
