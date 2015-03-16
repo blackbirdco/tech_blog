@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://tech.meetj.am
+url: http://blackbirdco.github.io/tech_blog
 title: Jam nerdz
 subtitle: Work hard, troll harder
 author: Blackbird SAS
@@ -16,7 +16,7 @@ description: Work hard, troll harder
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /tech_blog/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: tech@meetj.am
@@ -27,10 +27,10 @@ email_md5: 693d7463bda2ad0dbb456987b522faba
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /tech_blog
 permalink: /blog/:title/
 source: source
-destination: public
+destination: public/tech_blog
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
