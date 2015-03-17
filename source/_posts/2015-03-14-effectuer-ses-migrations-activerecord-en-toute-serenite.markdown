@@ -6,17 +6,15 @@ comments: true
 categories: activerecord rails
 ---
 
-Effectuer des migrations dans le monde rails est monnaie courante,
-celles-ci sont généralement générées et exécutées
-en une ligne de commande.
-
-Couplé à des techniques de développements agiles et
+Effectuer des migrations dans le monde rails sont
+généralement générées et exécutées
+en une ligne de commande. Couplé à des techniques de développements agiles et
 des itérations rapides, l'architecture de la couche
 modèle se voit très souvent remaniée, ce qui peut
 conduire à des migrations de données assez conséquentes.
 
 De ce constat, il est aisé d'introduire des migrations de
-données peu robustes au sein de l'application, ce qui peut mener
+données peu robustes au sein de l'application, ce qui peut amener
 à des erreurs lors des déploiements, ou pire, à une perte de l'intégrité
 de la base de données.
 
@@ -139,7 +137,7 @@ end
 
 L'avantage de la première méthode est que l'ORM s'occupera de construire la requête
 SQL suivant le SGBD derrière. Typiquement le stockage des booléens ne se fait pas
-de la même manière en SQLite qu'en PostgreSQL.
+de la même manière en SQLite et en PostgreSQL.
 
 Si vous ne vous sentez pas l'âme d'un DBA, préférez la première méthode à la seconde.
 
