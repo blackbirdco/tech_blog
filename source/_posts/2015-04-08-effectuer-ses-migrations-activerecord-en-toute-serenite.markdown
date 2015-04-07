@@ -1,19 +1,16 @@
 ---
 layout: post
 title: "Effectuer ses migrations ActiveRecord en toute sérénité"
-date: 2015-03-14 17:41:34 +0100
+date: 2015-04-08 17:41:34 +0100
 comments: true
 categories: activerecord rails
 ---
 
-Effectuer des migrations dans le monde rails sont
-généralement générées et exécutées
-en une ligne de commande. Couplé à des techniques de développements agiles et
-des itérations rapides, l'architecture de la couche
-modèle se voit très souvent remaniée, ce qui peut
-conduire à des migrations de données assez conséquentes.
+Les techniques de développement agiles amène régulièrement à remanier et
+remodeler nos bases de données relationnelles, d'autant plus si les outils
+à nos dispositions nous permettent d'effectuer des migrations facilement.
 
-De ce constat, il est aisé d'introduire des migrations de
+Il est ainsi plus aisé d'introduire des migrations de
 données peu robustes au sein de l'application, ce qui peut amener
 à des erreurs lors des déploiements, ou pire, à une perte de l'intégrité
 de la base de données.
