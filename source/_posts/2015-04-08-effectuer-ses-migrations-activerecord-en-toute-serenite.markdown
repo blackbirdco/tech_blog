@@ -75,7 +75,7 @@ class VeryComplexeMigrationWithDestructiveTransformations < ActiveRecord::Migrat
 end
 ```
 
-## Testez ses migrations avant de déployer
+## Tester ses migrations avant de déployer
 
 Une erreur fréquente lorsque l'on développe en rails est que l'on introduit
 généralement nos migrations au début du développement de la fonctionnalité :
