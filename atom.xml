@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Jam nerdz]]></title>
+  <link href="http://tech.hellojam.fr/tech_blog/atom.xml" rel="self"/>
+  <link href="http://tech.hellojam.fr/tech_blog/"/>
+  <updated>2015-12-31T01:19:44+01:00</updated>
+  <id>http://tech.hellojam.fr/tech_blog/</id>
+  <author>
+    <name><![CDATA[Blackbird SAS]]></name>
+    <email><![CDATA[tech@hellojam.fr]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
