@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://tech.meetj.am
+url: http://tech.hellojam.fr
 title: Jam nerdz
 subtitle: Work hard, troll harder
 author: Blackbird SAS
@@ -19,8 +19,8 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: tech@meetj.am
-email_md5: 693d7463bda2ad0dbb456987b522faba
+email: tech@hellojam.fr
+email_md5: cefc0317b07a1e9eca9846411473425b
 
 # ----------------------- #
 #    Jekyll & Plugins     #
